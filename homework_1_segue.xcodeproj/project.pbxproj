@@ -54,14 +54,54 @@
 		77EBD80D22C004EF00E83BA2 /* homework_1_segue */ = {
 			isa = PBXGroup;
 			children = (
-				77EBD80E22C004EF00E83BA2 /* AppDelegate.swift */,
-				77EBD81022C004EF00E83BA2 /* ViewController.swift */,
-				77EBD81222C004EF00E83BA2 /* Main.storyboard */,
-				77EBD81522C004F000E83BA2 /* Assets.xcassets */,
-				77EBD81722C004F000E83BA2 /* LaunchScreen.storyboard */,
-				77EBD81A22C004F100E83BA2 /* Info.plist */,
+				77EBD82022C0050600E83BA2 /* App */,
+				77EBD82422C0055E00E83BA2 /* View */,
+				77EBD82122C0051000E83BA2 /* Resources */,
 			);
 			path = homework_1_segue;
+			sourceTree = "<group>";
+		};
+		77EBD82022C0050600E83BA2 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				77EBD80E22C004EF00E83BA2 /* AppDelegate.swift */,
+				77EBD81A22C004F100E83BA2 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		77EBD82122C0051000E83BA2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				77EBD81522C004F000E83BA2 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		77EBD82222C0053000E83BA2 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				77EBD81222C004EF00E83BA2 /* Main.storyboard */,
+				77EBD81722C004F000E83BA2 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		77EBD82322C0054600E83BA2 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				77EBD81022C004EF00E83BA2 /* ViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		77EBD82422C0055E00E83BA2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				77EBD82322C0054600E83BA2 /* View Controller */,
+				77EBD82222C0053000E83BA2 /* Storyboards */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,7 +324,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PFT2629W4Z;
-				INFOPLIST_FILE = homework_1_segue/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/homework_1_segue/App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +342,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PFT2629W4Z;
-				INFOPLIST_FILE = homework_1_segue/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/homework_1_segue/App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
